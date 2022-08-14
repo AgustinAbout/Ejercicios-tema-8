@@ -1,0 +1,28 @@
+public class main {
+
+    public static void main(String[] args) {
+        Persona persona = new persona();
+        persona.setTipo = ("Nombre");
+
+        Persona persona = new persona();
+        persona.setTipo = ("Edad");
+
+        Persona persona = new persona();
+        persona.setTipo = ("Telefono");
+
+
+         String tipo = persona.getTipo();
+         System.out.printIn.(tipo);
+    }
+}
+
+class persona {
+
+         private string tipo;
+         public void setTipo(string tipo) {
+         this.tipo = tipo;
+    }
+
+         public string getTipo() {
+        return this.tipo;
+    }
